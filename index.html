@@ -8,6 +8,27 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header>
+        <div class="main-title"><a href="#">Awesome Books</a></div>
+    </header>
+    <main>
+        <section class="book-section">
+            <ul class="book-list"></ul>
+        </section>
+        <section class="sec-add-book">
+            <form action="add-book">
+                <fieldset class="add-book-field">
+                    <div class="input-grp">
+                        <input type="text" name="title" id="title"/>
+                    </div>
+                    <div>
+                        <input type="text" name="auther" id="auther"/>
+                    </div>
+                    <button type="submit">add</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
     <script src="index.js"></script>
     <script src="script.js"></script>
 </body>
