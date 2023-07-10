@@ -15,5 +15,13 @@
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.27.5",
     "hint": "^7.1.10"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Uzair-Manzoor/Awesome-books.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Uzair-Manzoor/Awesome-books/issues"
+  },
+  "homepage": "https://github.com/Uzair-Manzoor/Awesome-books#readme"
 }
