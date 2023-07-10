@@ -66,7 +66,7 @@
 
 Coming Soon
 
-- [Live Demo Link](https://google.com)
+- [Live Demo Link](https://i.imgur.com/wKBqg7q.gif)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
