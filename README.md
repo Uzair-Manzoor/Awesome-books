@@ -28,9 +28,9 @@
 
 # 📖 Awesome Books <a name="about-project"></a>
 
-Awesome books is a a small project to help master basic javascript concepts eg classes objects, arrays and dom manipulation
 
-**[Awesome Books]** is a...
+**[Awesome Books]** is a small project to help master basic javascript concepts eg classes objects, arrays, and dom manipulation
+
 
 ## 🛠 Built With <a name="built-with"></a>
 
