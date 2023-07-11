@@ -11,11 +11,7 @@ function updateBookList() {
     <div class="book-content">
       <p>${book.title}</p> 
       <p>by ${book.author}</p>
-    </div>
-    
-     
-     
-    `;
+    </div>`;
 
     function removeBook(index) {
       books.splice(index, 1);

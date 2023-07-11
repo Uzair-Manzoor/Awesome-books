@@ -5,11 +5,10 @@
 }
 
 .book-container {
-  display:flex;
-  
-  align-items:center;
+  display: flex;
+  align-items: center;
   justify-content: center;
-  width:100vw;
+  width: 100vw;
 }
 
 .book-holder {
@@ -19,7 +18,7 @@
 }
 
 #booksList {
-  display:flex;
+  display: flex;
   flex-direction: column;
   gap: 2rem;
 }
@@ -28,26 +27,28 @@
   list-style: none;
   text-decoration: none;
   border-bottom: 1px solid black;
-  display:flex;
+  display: flex;
   flex-direction: column;
   gap: 1rem;
   padding-bottom: 1rem;
+
   /* max-width: 2rem; */
 }
+
+form button {
+  width: max-content;
+}
+
 .book-details button {
   width: max-content;
 }
 
 .book-content {
-  display:flex;
+  display: flex;
   flex-direction: column;
 }
 
 form {
   display: flex;
   flex-direction: column;
-}
-
-form button {
-  width: max-content;
 }
