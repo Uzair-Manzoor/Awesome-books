@@ -1,4 +1,4 @@
-const books = [];
+const books = JSON.parse(localStorage.getItem('books')) || [];
 
 function updateBookList() {
   const bookList = document.getElementById('booksList');
@@ -10,11 +10,13 @@ function updateBookList() {
 
     function removeBook(index) {
       books.splice(index, 1);
+      localStorage.setItem('books', JSON.stringify(books));
       updateBookList();
     }
 
     const removeBtn = document.createElement('button');
     removeBtn.textContent = 'Remove';
+    
     removeBtn.addEventListener('click', () => removeBook(index));
 
     li.appendChild(removeBtn);
@@ -34,6 +36,7 @@ function addBook(event) {
 
   books.push(book);
 
+  localStorage.setItem('books', JSON.stringify(books));
   titleInput.value = '';
   authorInput.value = '';
 
@@ -42,3 +45,4 @@ function addBook(event) {
 
 const bookForm = document.getElementById('bookForm');
 bookForm.addEventListener('submit', addBook);
+updateBookList()
