@@ -6,7 +6,16 @@ function updateBookList() {
   bookList.innerHTML = '';
   books.forEach((book, index) => {
     const li = document.createElement('li');
-    li.textContent = `${book.title} by ${book.author}`;
+    li.classList.add('book-details');
+    li.innerHTML = `
+    <div class="book-content">
+      <p>${book.title}</p> 
+      <p>by ${book.author}</p>
+    </div>
+    
+     
+     
+    `;
 
     function removeBook(index) {
       books.splice(index, 1);
