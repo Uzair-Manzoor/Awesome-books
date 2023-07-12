@@ -25,7 +25,7 @@ function updateBookList() {
 
     const removeBtn = document.createElement('button');
     removeBtn.textContent = 'Remove';
-    
+
     removeBtn.addEventListener('click', () => removeBook(index));
 
     li.appendChild(removeBtn);
@@ -54,4 +54,4 @@ function addBook(event) {
 
 const bookForm = document.getElementById('bookForm');
 bookForm.addEventListener('submit', addBook);
-updateBookList()
+updateBookList();
